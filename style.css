@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/image/timer.jpg);
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    font-weight: bolder;
+    font-size: 4rem;
+    text-align: center;
+   
+
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
