@@ -1,2 +1,2 @@
 # simple-timer
-# look at timer2023.netlify.app
+# look at https://timer2023.netlify.app
